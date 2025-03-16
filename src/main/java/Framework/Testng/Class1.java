@@ -8,23 +8,23 @@ import org.testng.annotations.Test;
 public class Class1 {
 
 	@Test
-	public void Test1()
+	public void Testng1()
 	{
 		System.out.println("Testcase 1 has been executed...");}
 	@Test
-	public void Test2()
+	public void Testng2()
 	{
 		System.out.println("Testcase 2 has been executed...");}
 	@BeforeClass
-	public void TestA()
+	public void TestngA()
 	{
 		System.out.println("Testcase 3 has been executed...before Class1");}
 	@BeforeMethod
-	public void Test3()
+	public void Testng3()
 	{
 		System.out.println("Testcase 3 has been executed...before Test1 and Test2 in Class1");}
 	@AfterMethod
-	public void Test4()
+	public void Testng4()
 	{
 		System.out.println("Testcase 4 has been executed...after Test1 and Test2 in Class1");}
 }

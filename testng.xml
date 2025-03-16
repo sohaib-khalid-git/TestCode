@@ -4,9 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Framework.Testng.Class1"/>
-      <class name="Framework.Testng.Class2"/>
-      <class name="Framework.Testng.Class3"/>
-      <class name="Framework.Testng.Class4"/>
+      <!--<class name="Framework.Testng.Class2"/>-->
+      <!--<class name="Framework.Testng.Class3"/>-->
+      <!--<class name="Framework.Testng.Class4"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
